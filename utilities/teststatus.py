@@ -14,14 +14,14 @@ import utilities.custom_logger as cl
 from base.selenium_driver import SeleniumDriver
 
 
-class TestStatus(SeleniumDriver):
+class StatusVerify(SeleniumDriver):
     log = cl.customLogger(logging.INFO)
 
     def __init__(self, driver):
         """
         Inits CheckPoint class
         """
-        super(TestStatus, self).__init__(driver)
+        super(StatusVerify, self).__init__(driver)
         self.resultList = []
 
     def setResult(self, result, resultMessage):
@@ -52,6 +52,8 @@ class TestStatus(SeleniumDriver):
         This should be final test status of the test case
         """
         self.setResult(result, resultMessage)
+
+        print self.resultList
 
         if "FAIL" in self.resultList:
             self.log.error(testName + " ### TEST FAILED")

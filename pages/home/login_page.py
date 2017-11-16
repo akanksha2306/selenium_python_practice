@@ -2,9 +2,10 @@ import logging
 
 import utilities.custom_logger as cl
 from base.selenium_driver import SeleniumDriver
+from base.basepage import BasePage
 
 
-class Login_page(SeleniumDriver):
+class Login_page(BasePage):
     '''
     All these locators and log is a class property ,it wont change with every page,(until we want to do),so
     making it s a class property.(static variables they all are)wont change until we change them.
@@ -52,8 +53,5 @@ class Login_page(SeleniumDriver):
         result = self.isElementPresent("//div[contains(text(),'Invalid email or password')]", locatorType="xpath")
         return result
 
-    def verifyTitle(self):
-        if "Let's Kode It" in self.getTitle():
-            return True
-        else:
-            return False
+    def verifyLoginTitle(self):
+        return self.verifyPageTitle("Let's Kode It")

@@ -1,0 +1,196 @@
+1509288993689	geckodriver	INFO	geckodriver 0.19.0
+1509288993696	geckodriver	INFO	Listening on 127.0.0.1:63382
+1509288996862	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/6b/3vmw41xn7ln3dy68nlyc0jc80000gn/T/rust_mozprofile.PcP4toMXWjpY"
+1509288997269	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///Applications/Firefox.app/Contents/Resources/omni.ja!/components/addonManager.js:65
+1509288997902	Marionette	INFO	Enabled via --marionette
+2017-10-29 20:26:39.006 plugin-container[4185:1808071] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9d3b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1509288999616	Marionette	INFO	Listening on port 63389
+1509289000022	Marionette	WARN	TLS certificate errors will be ignored for this session
+1509289000058	Marionette	DEBUG	Register listener.js for window 2147483649
+1509289000376	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1509289001681	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1509289001682	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1509289002639	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://sso.teachable.com/secure/42299/users/sign_in?clean_login=true&reset_purchase_session=1"
+1509289004360	Marionette	DEBUG	Received DOM event "pageshow" for "https://sso.teachable.com/secure/42299/users/sign_in?clean_login=true&reset_purchase_session=1"
+1509289004508	Marionette	DEBUG	Received DOM event "beforeunload" for "https://sso.teachable.com/secure/42299/users/sign_in?clean_login=true&reset_purchase_session=1"
+1509289007712	Marionette	DEBUG	Received DOM event "pagehide" for "https://sso.teachable.com/secure/42299/users/sign_in?clean_login=true&reset_purchase_session=1"
+1509289007719	Marionette	DEBUG	Received DOM event "unload" for "https://sso.teachable.com/secure/42299/users/sign_in?clean_login=true&reset_purchase_session=1"
+1509289008391	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://sso.teachable.com/secure/42299/users/sign_in?clean_login=true&reset_purchase_session=1"
+1509289008451	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483659"
+1509289008452	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483657"
+1509289008453	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483653"
+1509289008454	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483654"
+1509289008750	Marionette	DEBUG	Received DOM event "pageshow" for "https://sso.teachable.com/secure/42299/users/sign_in?clean_login=true&reset_purchase_session=1"
+1509289009113	Marionette	DEBUG	Received DOM event "beforeunload" for "https://sso.teachable.com/secure/42299/users/sign_in?clean_login=true&reset_purchase_session=1"
+1509289009969	Marionette	DEBUG	Received DOM event "pagehide" for "https://sso.teachable.com/secure/42299/users/sign_in?clean_login=true&reset_purchase_session=1"
+1509289009969	Marionette	DEBUG	Received DOM event "unload" for "https://sso.teachable.com/secure/42299/users/sign_in?clean_login=true&reset_purchase_session=1"
+1509289010311	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://sso.teachable.com/secure/42299/users/sign_in?flow_school_id=42299"
+1509289010341	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483670"
+1509289010341	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483668"
+1509289010341	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483664"
+1509289010342	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483665"
+1509289010519	Marionette	DEBUG	Received DOM event "pageshow" for "https://sso.teachable.com/secure/42299/users/sign_in?flow_school_id=42299"
+1509289030421	geckodriver	INFO	geckodriver 0.19.0
+1509289030427	geckodriver	INFO	Listening on 127.0.0.1:63462
+1509289033547	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/6b/3vmw41xn7ln3dy68nlyc0jc80000gn/T/rust_mozprofile.P87sjFPeLaW4"
+1509289033840	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///Applications/Firefox.app/Contents/Resources/omni.ja!/components/addonManager.js:65
+1509289034217	Marionette	INFO	Enabled via --marionette
+2017-10-29 20:27:15.389 plugin-container[4197:1809499] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9e37, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1509289035797	Marionette	INFO	Listening on port 63469
+1509289036697	Marionette	WARN	TLS certificate errors will be ignored for this session
+1509289036733	Marionette	DEBUG	Register listener.js for window 2147483649
+1509289037080	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1509289038210	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1509289038211	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1509289039449	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://sso.teachable.com/secure/42299/users/sign_in?clean_login=true&reset_purchase_session=1"
+1509289041258	Marionette	DEBUG	Received DOM event "pageshow" for "https://sso.teachable.com/secure/42299/users/sign_in?clean_login=true&reset_purchase_session=1"
+1509289041435	Marionette	DEBUG	Received DOM event "beforeunload" for "https://sso.teachable.com/secure/42299/users/sign_in?clean_login=true&reset_purchase_session=1"
+1509289044191	Marionette	DEBUG	Received DOM event "pagehide" for "https://sso.teachable.com/secure/42299/users/sign_in?clean_login=true&reset_purchase_session=1"
+1509289044191	Marionette	DEBUG	Received DOM event "unload" for "https://sso.teachable.com/secure/42299/users/sign_in?clean_login=true&reset_purchase_session=1"
+1509289044569	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://sso.teachable.com/secure/42299/users/sign_in?clean_login=true&reset_purchase_session=1"
+1509289044604	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483659"
+1509289044604	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483657"
+1509289044606	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483653"
+1509289044607	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483654"
+1509289044833	Marionette	DEBUG	Received DOM event "pageshow" for "https://sso.teachable.com/secure/42299/users/sign_in?clean_login=true&reset_purchase_session=1"
+1509289045070	Marionette	DEBUG	Received DOM event "beforeunload" for "https://sso.teachable.com/secure/42299/users/sign_in?clean_login=true&reset_purchase_session=1"
+1509289046032	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483670"
+1509289047416	Marionette	DEBUG	Received DOM event "pagehide" for "https://sso.teachable.com/secure/42299/users/sign_in?clean_login=true&reset_purchase_session=1"
+1509289047417	Marionette	DEBUG	Received DOM event "unload" for "https://sso.teachable.com/secure/42299/users/sign_in?clean_login=true&reset_purchase_session=1"
+1509289047844	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://letskodeit.teachable.com/"
+1509289047869	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483668"
+1509289047869	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483664"
+1509289047870	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483665"
+1509289049655	Marionette	DEBUG	Received DOM event "pageshow" for "https://letskodeit.teachable.com/"
+2017-10-29 20:27:44.267 plugin-container[4200:1810565] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9e37, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1509290323966	geckodriver	INFO	geckodriver 0.19.0
+1509290323971	geckodriver	INFO	Listening on 127.0.0.1:63616
+1509290327104	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/6b/3vmw41xn7ln3dy68nlyc0jc80000gn/T/rust_mozprofile.4j9jz0fv5hb3"
+1509290327385	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///Applications/Firefox.app/Contents/Resources/omni.ja!/components/addonManager.js:65
+1509290327770	Marionette	INFO	Enabled via --marionette
+2017-10-29 20:48:48.930 plugin-container[4237:1845018] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9e3b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1509290329387	Marionette	INFO	Listening on port 63623
+1509290330253	Marionette	WARN	TLS certificate errors will be ignored for this session
+1509290330291	Marionette	DEBUG	Register listener.js for window 2147483649
+1509290330597	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1509290331898	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1509290331898	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1509290333024	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://sso.teachable.com/secure/42299/users/sign_in?clean_login=true&reset_purchase_session=1"
+1509290335025	Marionette	DEBUG	Received DOM event "pageshow" for "https://sso.teachable.com/secure/42299/users/sign_in?clean_login=true&reset_purchase_session=1"
+1509290335148	Marionette	DEBUG	Received DOM event "beforeunload" for "https://sso.teachable.com/secure/42299/users/sign_in?clean_login=true&reset_purchase_session=1"
+1509290337805	Marionette	DEBUG	Received DOM event "pagehide" for "https://sso.teachable.com/secure/42299/users/sign_in?clean_login=true&reset_purchase_session=1"
+1509290337806	Marionette	DEBUG	Received DOM event "unload" for "https://sso.teachable.com/secure/42299/users/sign_in?clean_login=true&reset_purchase_session=1"
+1509290338175	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://sso.teachable.com/secure/42299/users/sign_in?clean_login=true&reset_purchase_session=1"
+1509290338214	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483660"
+1509290338215	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483658"
+1509290338215	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483653"
+1509290338216	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483654"
+1509290338379	Marionette	DEBUG	Received DOM event "pageshow" for "https://sso.teachable.com/secure/42299/users/sign_in?clean_login=true&reset_purchase_session=1"
+1509290338599	Marionette	DEBUG	Received DOM event "beforeunload" for "https://sso.teachable.com/secure/42299/users/sign_in?clean_login=true&reset_purchase_session=1"
+1509290339563	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483671"
+1509290341360	Marionette	DEBUG	Received DOM event "pagehide" for "https://sso.teachable.com/secure/42299/users/sign_in?clean_login=true&reset_purchase_session=1"
+1509290341361	Marionette	DEBUG	Received DOM event "unload" for "https://sso.teachable.com/secure/42299/users/sign_in?clean_login=true&reset_purchase_session=1"
+1509290341804	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://letskodeit.teachable.com/"
+1509290341821	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483669"
+1509290341844	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483665"
+1509290341845	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483666"
+1509290344175	Marionette	DEBUG	Received DOM event "pageshow" for "https://letskodeit.teachable.com/"
+2017-10-29 20:49:22.789 plugin-container[4239:1846227] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9d3b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-10-29 20:49:36.567 plugin-container[4241:1846828] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9e3b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1509290385023	geckodriver	INFO	geckodriver 0.19.0
+1509290385027	geckodriver	INFO	Listening on 127.0.0.1:63706
+1509290388148	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/6b/3vmw41xn7ln3dy68nlyc0jc80000gn/T/rust_mozprofile.0NSwrvanSJh9"
+1509290388428	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///Applications/Firefox.app/Contents/Resources/omni.ja!/components/addonManager.js:65
+1509290388816	Marionette	INFO	Enabled via --marionette
+2017-10-29 20:49:50.075 plugin-container[4247:1847380] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9e3f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1509290390581	Marionette	INFO	Listening on port 63713
+1509290391296	Marionette	WARN	TLS certificate errors will be ignored for this session
+1509290391347	Marionette	DEBUG	Register listener.js for window 2147483649
+1509290391743	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1509290392867	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1509290392868	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1509290394049	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://sso.teachable.com/secure/42299/users/sign_in?clean_login=true&reset_purchase_session=1"
+1509290395391	Marionette	DEBUG	Received DOM event "pageshow" for "https://sso.teachable.com/secure/42299/users/sign_in?clean_login=true&reset_purchase_session=1"
+1509290395536	Marionette	DEBUG	Received DOM event "beforeunload" for "https://sso.teachable.com/secure/42299/users/sign_in?clean_login=true&reset_purchase_session=1"
+1509290398328	Marionette	DEBUG	Received DOM event "pagehide" for "https://sso.teachable.com/secure/42299/users/sign_in?clean_login=true&reset_purchase_session=1"
+1509290398333	Marionette	DEBUG	Received DOM event "unload" for "https://sso.teachable.com/secure/42299/users/sign_in?clean_login=true&reset_purchase_session=1"
+1509290398781	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://sso.teachable.com/secure/42299/users/sign_in?clean_login=true&reset_purchase_session=1"
+1509290398831	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483660"
+1509290398832	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483658"
+1509290398833	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483653"
+1509290398835	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483654"
+1509290399058	Marionette	DEBUG	Received DOM event "pageshow" for "https://sso.teachable.com/secure/42299/users/sign_in?clean_login=true&reset_purchase_session=1"
+1509290399326	Marionette	DEBUG	Received DOM event "beforeunload" for "https://sso.teachable.com/secure/42299/users/sign_in?clean_login=true&reset_purchase_session=1"
+1509290400279	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483671"
+1509290401854	Marionette	DEBUG	Received DOM event "pagehide" for "https://sso.teachable.com/secure/42299/users/sign_in?clean_login=true&reset_purchase_session=1"
+1509290401855	Marionette	DEBUG	Received DOM event "unload" for "https://sso.teachable.com/secure/42299/users/sign_in?clean_login=true&reset_purchase_session=1"
+1509290402299	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://letskodeit.teachable.com/"
+1509290402350	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483669"
+1509290402351	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483665"
+1509290402351	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483666"
+1509290404388	Marionette	DEBUG	Received DOM event "pageshow" for "https://letskodeit.teachable.com/"
+2017-10-29 20:50:40.696 plugin-container[4254:1849283] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9f3b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-10-29 20:50:43.804 plugin-container[4255:1849393] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9f37, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1509290449801	geckodriver	INFO	geckodriver 0.19.0
+1509290449807	geckodriver	INFO	Listening on 127.0.0.1:63796
+1509290450103	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/6b/3vmw41xn7ln3dy68nlyc0jc80000gn/T/rust_mozprofile.uapOVmY4BDMH"
+1509290450629	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///Applications/Firefox.app/Contents/Resources/omni.ja!/components/addonManager.js:65
+1509290451001	Marionette	INFO	Enabled via --marionette
+2017-10-29 20:50:52.249 plugin-container[4262:1849820] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9d3b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1509290453245	Marionette	INFO	Listening on port 63800
+1509290453789	Marionette	WARN	TLS certificate errors will be ignored for this session
+1509290453829	Marionette	DEBUG	Register listener.js for window 2147483649
+1509290454166	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1509290455244	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1509290455244	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1509290456467	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://sso.teachable.com/secure/42299/users/sign_in?clean_login=true&reset_purchase_session=1"
+1509290457705	Marionette	DEBUG	Received DOM event "pageshow" for "https://sso.teachable.com/secure/42299/users/sign_in?clean_login=true&reset_purchase_session=1"
+1509290457820	Marionette	DEBUG	Received DOM event "beforeunload" for "https://sso.teachable.com/secure/42299/users/sign_in?clean_login=true&reset_purchase_session=1"
+1509290460756	Marionette	DEBUG	Received DOM event "pagehide" for "https://sso.teachable.com/secure/42299/users/sign_in?clean_login=true&reset_purchase_session=1"
+1509290460761	Marionette	DEBUG	Received DOM event "unload" for "https://sso.teachable.com/secure/42299/users/sign_in?clean_login=true&reset_purchase_session=1"
+1509290461166	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://sso.teachable.com/secure/42299/users/sign_in?clean_login=true&reset_purchase_session=1"
+1509290461201	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483660"
+1509290461201	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483658"
+1509290461202	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483653"
+1509290461203	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483654"
+1509290461447	Marionette	DEBUG	Received DOM event "pageshow" for "https://sso.teachable.com/secure/42299/users/sign_in?clean_login=true&reset_purchase_session=1"
+1509290461700	Marionette	DEBUG	Received DOM event "beforeunload" for "https://sso.teachable.com/secure/42299/users/sign_in?clean_login=true&reset_purchase_session=1"
+1509290462655	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483671"
+1509290464805	Marionette	DEBUG	Received DOM event "pagehide" for "https://sso.teachable.com/secure/42299/users/sign_in?clean_login=true&reset_purchase_session=1"
+1509290464806	Marionette	DEBUG	Received DOM event "unload" for "https://sso.teachable.com/secure/42299/users/sign_in?clean_login=true&reset_purchase_session=1"
+1509290465292	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://letskodeit.teachable.com/"
+1509290465341	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483669"
+1509290465341	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483665"
+1509290465342	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483666"
+1509290466910	Marionette	DEBUG	Received DOM event "pageshow" for "https://letskodeit.teachable.com/"
+JavaScript error: jar:file:///Applications/Firefox.app/Contents/Resources/browser/omni.ja!/components/nsBrowserGlue.js, line 994: TypeError: win is null
+JavaScript error: jar:file:///Applications/Firefox.app/Contents/Resources/browser/omni.ja!/components/nsBrowserGlue.js, line 994: TypeError: win is null
+JavaScript error: jar:file:///Applications/Firefox.app/Contents/Resources/browser/omni.ja!/components/nsBrowserGlue.js, line 994: TypeError: win is null
+JavaScript error: jar:file:///Applications/Firefox.app/Contents/Resources/browser/omni.ja!/components/nsBrowserGlue.js, line 994: TypeError: win is null
+JavaScript error: jar:file:///Applications/Firefox.app/Contents/Resources/browser/omni.ja!/components/nsBrowserGlue.js, line 994: TypeError: win is null
+JavaScript error: jar:file:///Applications/Firefox.app/Contents/Resources/browser/omni.ja!/components/nsBrowserGlue.js, line 994: TypeError: win is null
+JavaScript error: jar:file:///Applications/Firefox.app/Contents/Resources/browser/omni.ja!/components/nsBrowserGlue.js, line 994: TypeError: win is null
+JavaScript error: jar:file:///Applications/Firefox.app/Contents/Resources/browser/omni.ja!/components/nsBrowserGlue.js, line 994: TypeError: win is null
+JavaScript error: jar:file:///Applications/Firefox.app/Contents/Resources/browser/omni.ja!/components/nsBrowserGlue.js, line 994: TypeError: win is null
+JavaScript error: jar:file:///Applications/Firefox.app/Contents/Resources/browser/omni.ja!/components/nsBrowserGlue.js, line 994: TypeError: win is null
+JavaScript error: jar:file:///Applications/Firefox.app/Contents/Resources/browser/omni.ja!/components/nsBrowserGlue.js, line 994: TypeError: win is null
+JavaScript error: jar:file:///Applications/Firefox.app/Contents/Resources/browser/omni.ja!/components/nsBrowserGlue.js, line 994: TypeError: win is null
+JavaScript error: jar:file:///Applications/Firefox.app/Contents/Resources/browser/omni.ja!/components/nsBrowserGlue.js, line 994: TypeError: win is null
+JavaScript error: jar:file:///Applications/Firefox.app/Contents/Resources/browser/omni.ja!/components/nsBrowserGlue.js, line 994: TypeError: win is null
+JavaScript error: jar:file:///Applications/Firefox.app/Contents/Resources/browser/omni.ja!/components/nsBrowserGlue.js, line 994: TypeError: win is null
+2017-10-29 21:33:27.969 plugin-container[4406:1944379] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xa037, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+JavaScript error: jar:file:///Applications/Firefox.app/Contents/Resources/browser/omni.ja!/components/nsBrowserGlue.js, line 994: TypeError: win is null
+2017-10-29 21:44:35.421 plugin-container[4422:1953866] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9e3b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.

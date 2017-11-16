@@ -8,11 +8,13 @@ Example:
     wdf = WebDriverFactory(browser)
     wdf.getWebDriverInstance()
 """
+
+import os
 from selenium import webdriver
 
 
 class WebDriverFactory():
-    def __init__(self, browser):
+    def __init__(self, browser, osType, baseUrl):
         """
         Inits WebDriverFactory class
 
@@ -20,6 +22,8 @@ class WebDriverFactory():
             None
         """
         self.browser = browser
+        self.osType = osType
+        self.baseUrl = baseUrl
 
     """
         Set chrome driver and iexplorer environment based on OS
@@ -39,16 +43,27 @@ class WebDriverFactory():
             'WebDriver Instance'
         """
         baseURL = "https://letskodeit.teachable.com/"
+
+        if (self.osType not in ["win", "mac", "linux"]):
+            self.osType = "mac"
+
+
+        base_dir = os.path.dirname(__file__)
+        resources_dir = os.path.join(base_dir, '../resources/selenium_drivers/%s/'%(self.osType,))
+
         if self.browser == "iexplorer":
             # Set ie driver
             driver = webdriver.Ie()
         elif self.browser == "firefox":
-            driver = webdriver.Firefox()
+            driver_path = os.path.join(resources_dir, 'geckodriver')
+            driver = webdriver.Firefox(executable_path=driver_path)
         elif self.browser == "chrome":
             # Set chrome driver
-            driver = webdriver.Chrome()
+            driver_path = os.path.join(resources_dir, 'chromedriver')
+            driver = webdriver.Chrome(executable_path=driver_path)
         else:
-            driver = webdriver.Firefox()
+            driver_path = os.path.join(resources_dir, 'geckodriver')
+            driver = webdriver.Firefox(executable_path=driver_path)
         # Setting Driver Implicit Time out for An Element
         driver.implicitly_wait(3)
         # Maximize the window

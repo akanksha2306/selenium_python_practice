@@ -1,0 +1,41 @@
+11/16/2017 01:14:32 PM - Login_page - INFO: Element Found with locator: Login locator type: link
+11/16/2017 01:14:32 PM - Login_page - INFO: Clicked on element with locator: Login locatorType: link
+11/16/2017 01:14:34 PM - Login_page - INFO: Element Found with locator: user_email locator type: id
+11/16/2017 01:14:35 PM - Login_page - INFO: Sent data on element with locator: user_email locatorType: id
+11/16/2017 01:14:35 PM - Login_page - INFO: Element Found with locator: user_password locator type: id
+11/16/2017 01:14:35 PM - Login_page - INFO: Sent data on element with locator: user_password locatorType: id
+11/16/2017 01:14:35 PM - Login_page - INFO: Element Found with locator: commit locator type: name
+11/16/2017 01:14:39 PM - Login_page - INFO: Clicked on element with locator: commit locatorType: name
+11/16/2017 01:14:39 PM - Register_courses_page - INFO: Element Found with locator: search-courses locator type: id
+11/16/2017 01:14:39 PM - Register_courses_page - INFO: Sent data on element with locator: search-courses locatorType: id
+11/16/2017 01:14:39 PM - Register_courses_page - INFO: Element Found with locator: search-course-button locator type: id
+11/16/2017 01:14:40 PM - Register_courses_page - INFO: Clicked on element with locator: search-course-button locatorType: id
+11/16/2017 01:14:40 PM - Register_courses_page - INFO: Element Found with locator: /html/body/div/div/div/div[2]/div/div/div[1]/a/div/div[2] locator type: xpath
+11/16/2017 01:14:40 PM - Register_courses_page - INFO: Clicked on element with locator: /html/body/div/div/div/div[2]/div/div/div[1]/a/div/div[2] locatorType: xpath
+11/16/2017 01:14:41 PM - Register_courses_page - INFO: Element Found with locator: enroll-button-top locator type: id
+11/16/2017 01:14:47 PM - Register_courses_page - INFO: Clicked on element with locator: enroll-button-top locatorType: id
+11/16/2017 01:14:50 PM - Register_courses_page - INFO: Element not Found with locator: postal locator type: name
+11/16/2017 01:14:50 PM - Register_courses_page - INFO: Element not present with locator: postal locatorType: name
+11/16/2017 01:14:50 PM - Register_courses_page - INFO: Element Found with locator: credit_card_number locator type: id
+11/16/2017 01:14:50 PM - Register_courses_page - INFO: Cannot send data on the element with locator: credit_card_number locatorType: id
+11/16/2017 11:08:47 PM - Login_page - INFO: Element Found with locator: Login locator type: link
+11/16/2017 11:08:47 PM - Login_page - INFO: Clicked on element with locator: Login locatorType: link
+11/16/2017 11:08:50 PM - Login_page - INFO: Element Found with locator: user_email locator type: id
+11/16/2017 11:08:50 PM - Login_page - INFO: Sent data on element with locator: user_email locatorType: id
+11/16/2017 11:08:50 PM - Login_page - INFO: Element Found with locator: user_password locator type: id
+11/16/2017 11:08:51 PM - Login_page - INFO: Sent data on element with locator: user_password locatorType: id
+11/16/2017 11:08:51 PM - Login_page - INFO: Element Found with locator: commit locator type: name
+11/16/2017 11:08:55 PM - Login_page - INFO: Clicked on element with locator: commit locatorType: name
+11/16/2017 11:08:55 PM - Register_courses_page - INFO: Element Found with locator: search-courses locator type: id
+11/16/2017 11:08:56 PM - Register_courses_page - INFO: Sent data on element with locator: search-courses locatorType: id
+11/16/2017 11:08:56 PM - Register_courses_page - INFO: Element Found with locator: search-course-button locator type: id
+11/16/2017 11:08:57 PM - Register_courses_page - INFO: Clicked on element with locator: search-course-button locatorType: id
+11/16/2017 11:08:57 PM - Register_courses_page - INFO: Element Found with locator: /html/body/div/div/div/div[2]/div/div/div[1]/a/div/div[2] locator type: xpath
+11/16/2017 11:08:57 PM - Register_courses_page - INFO: Clicked on element with locator: /html/body/div/div/div/div[2]/div/div/div[1]/a/div/div[2] locatorType: xpath
+11/16/2017 11:08:58 PM - Register_courses_page - INFO: Element Found with locator: enroll-button-top locator type: id
+11/16/2017 11:09:05 PM - Register_courses_page - INFO: Clicked on element with locator: enroll-button-top locatorType: id
+11/16/2017 11:09:08 PM - Register_courses_page - INFO: Element not Found with locator: postal locator type: name
+11/16/2017 11:09:08 PM - Register_courses_page - INFO: Element not present with locator: postal locatorType: name
+11/16/2017 11:09:12 PM - Register_courses_page - INFO: Element not Found with locator: __privateStripeFrame3 locator type: name
+11/16/2017 11:09:14 PM - Register_courses_page - INFO: Element Found with locator: credit_card_number locator type: id
+11/16/2017 11:09:14 PM - Register_courses_page - INFO: Cannot send data on the element with locator: credit_card_number locatorType: id
