@@ -32,7 +32,7 @@ def oneTimeSetUp(request, browser, osType, baseUrl):
 def pytest_addoption(parser):
     parser.addoption("--browser", help="Target browser")
     parser.addoption("--osType", help="Type of operating system")
-    parser.addoption("--baseURL", help = "baseUrl of website to test")
+    parser.addoption("--baseUrl", help = "baseUrl of website to test")
 
 
 @pytest.fixture(scope="session")

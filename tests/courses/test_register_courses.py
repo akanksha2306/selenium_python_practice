@@ -25,7 +25,8 @@ class Register_course_tests(unittest.TestCase):
         # self.rcp.enterpostalcode("560102")
         self.rcp.enrollInCourse()
         result = self.rcp.captureErrorMsg()
-        self.ts.markFinal("test_Invalid_Enrollment", result, "The card was declined.")
+        #self.ts.markFinal("test_Invalid_Enrollment", result, "The card was declined.")
+        assert result == "The card was declined."
 
 
 

@@ -42,7 +42,7 @@ class WebDriverFactory():
         Returns:
             'WebDriver Instance'
         """
-        baseURL = "https://letskodeit.teachable.com/"
+        #baseURL = "https://letskodeit.teachable.com/"
 
         if (self.osType not in ["win", "mac", "linux"]):
             self.osType = "mac"
@@ -69,5 +69,5 @@ class WebDriverFactory():
         # Maximize the window
         driver.maximize_window()
         # Loading browser with App URL
-        driver.get(baseURL)
+        driver.get(self.baseUrl)
         return driver
